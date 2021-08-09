@@ -1,0 +1,116 @@
+body{
+    background-color:#DEEDF0;
+}
+
+h1{
+    background-color:rgb(253, 192, 255)
+}
+.menu{
+    margin-top:15px;
+    width : 100%;
+    height :  100%;
+    background-image: url(kapil.png);
+    background-size:cover;
+
+  }
+
+  .menu > ul{
+    background-color:#9B72AA;
+    margin:15px 15px;
+    padding:20px 20px;
+  }
+
+.menu ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+    float:left;
+    position:relative;
+}  
+.menu ul a{
+    text-decoration:none;
+    display:block;
+    color:black;
+    font-weight:700;
+    font-size:20px;
+    line-height:32px;
+    margin:0;
+    padding:20px 102px;
+}
+
+.menu ul li
+  {  
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0;
+    border:0px solid black;
+  }
+
+  .menu ul li.active
+  {
+    background-color:#00a8ff;
+  }
+
+  .menu ul li:hover
+  {
+    
+    background-color: #00a8ff;
+  }
+
+  .menu ul ul
+  {
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    background-color:#32ff7e;
+    padding:0
+  }
+
+  .menu ul ul li
+  {
+    float:none;
+    width:200px;
+    border-left: 3px solid #8c7ae6;
+  }
+
+  .menu ul ul li:hover{
+    border-left: 3px solid darkorchid;
+    background-color:#6c5ce7; 
+  }
+
+  .menu ul ul a
+  {
+    line-height:120%;
+    padding:10px 15px;
+  }
+
+  .menu ul ul ul
+  {
+    background-color:darkgreen;
+    top:-4px;
+    left:100%
+  }
+
+  .menu ul ul ul li:hover{
+    border-left: 3px solid darkorchid;
+    background-color:#74b9ff;
+  }
+
+  .menu ul li:hover > ul
+  {
+    display:block
+  }
+
+  .menu ul ul ul
+  {
+    background-color:green;
+    top:-4px;
+    left:100%
+  }
+
+  .menu ul ul ul li:hover{
+    border-left: 3px solid darkorchid;
+    background-color:#74baffad;
+  }
